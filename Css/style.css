@@ -34,6 +34,70 @@ header .header_search .btn_material {
 header .header_search .btn_material i {
   color: white;
 }
+header .header_switch .btn i {
+  color: white;
+  font-size: 28px;
+}
+
+#myBody {
+  background-color: white;
+}
+#switchButton {
+  /* background-color: white; */
+  /* border: 1px solid black; */
+  margin-left: 10px;
+}
+#switchButton .fa-sun {
+  display: none;
+}
+#switchButton .fa-moon {
+  display: block;
+}
+
+/* Dark Theme*/
+.dark#myBody {
+  background-color: black;
+}
+.dark#myBody h3 {
+  color: #EEEEEE;
+}
+.dark#myBody h4 {
+  color: #EEEEEE;
+  opacity: 0.9;
+}
+
+.dark#myBody .service {
+  background-color: #100f19;
+}
+.dark#myBody .service .item_bg {
+  background-color: #151421;
+}
+.dark#myBody .service .item_bg i {
+  color: #EEEEEE;
+}
+.dark#myBody .map_contact {
+  background-color: #100f19;
+}
+
+.dark#myBody h6 {
+  color: #EEEEEE;
+}
+.dark#myBody h6:hover {
+  color: #00a63f;
+}
+.dark#myBody p {
+  color: #c2c2c2;
+  opacity: 0.6;
+}
+
+.dark #switchButton .fa-sun {
+  display: block;
+  color: #EEEEEE;
+}
+
+.dark #switchButton .fa-moon {
+  display: none;
+}
 header {
   position: absolute;
   width: 100%;

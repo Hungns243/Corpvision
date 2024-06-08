@@ -23,7 +23,7 @@
 
     <link rel="stylesheet" href="./Css/style.css" />
   </head>
-  <body>
+  <body id="myBody">
     <header class="main_header fixed-top">
       <div class="container">
       <nav class="navbar navbar-expand-lg m-0 p-0">
@@ -88,6 +88,12 @@
             <div class="btn_material">
               <i class="fa-solid fa-magnifying-glass"></i>
             </div>
+          </div>
+          <div class="header_switch mx-auto py-3">
+            <button class="btn" id="switchButton" title="Click to switch theme">
+              <i class="fa-regular fa-moon"></i>
+              <i class="fa-regular fa-sun"></i>
+            </button>
           </div>
         </div>
       </nav>
@@ -312,5 +318,7 @@
     <!-- back to top code house js  -->
     <script src="./Js/backToTop/assets/js/main.js"></script>
     <script src="./Js/backToTop/assets/js/util.js"></script>
+
+    <script src="./SwitchJs/index.js"></script>
   </body>
 </html>
